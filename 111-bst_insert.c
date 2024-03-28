@@ -1,6 +1,7 @@
 #include "binary_trees.h"
 /**
- * bst_insert - insert nodes in order to create a BST tree
+ * bst_insert - inserts nodes that create a Binary Search Tree
+
  * @tree: tree to create with type BST
  * @value: value of node to insert
  * Return: BST tree

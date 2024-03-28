@@ -24,7 +24,7 @@ void bal(avl_t **tree)
 /**
  * successor - get the next successor i mean the min node in the right subtree
  * @node: tree to check
- * Return: the min value of this tree
+ * Return: min value of this tree
  */
 int successor(bst_t *node)
 {
@@ -46,7 +46,7 @@ int successor(bst_t *node)
 
 }
 /**
- *remove_type - function that removes a node depending of its children
+ *remove_type - removes the node depending of its children
  *@root: node to remove
  *Return: 0 if it has no children or other value if it has
  */
@@ -92,10 +92,10 @@ int remove_type(bst_t *root)
 	}
 }
 /**
- * bst_remove - remove a node from a BST tree
+ * bst_remove - remove the node from a BST tree
  * @root: root of the tree
  * @value: node with this value to remove
- * Return: the tree changed
+ * Return: tree changed
  */
 bst_t *bst_remove(bst_t *root, int value)
 {
@@ -119,10 +119,10 @@ bst_t *bst_remove(bst_t *root, int value)
 }
 
 /**
- * avl_remove - remove a node from a AVL tree
+ * avl_remove - remove the node from a AVL tree
  * @root: root of the tree
  * @value: node with this value to remove
- * Return: the tree changed
+ * Return: tree changed
  */
 avl_t *avl_remove(avl_t *root, int value)
 {

@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_preorder - print elements of tree using pre-order traversal
+ * binary_tree_preorder - printss the nodes of a binary tree - traversal
  * @tree: tree to go through
  * @func: function to use
  * Return: Nothing

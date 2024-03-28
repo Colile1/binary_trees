@@ -1,7 +1,9 @@
 #include "binary_trees.h"
 
 /**
- * r_insert_node - node value instertion in a AVL.
+ * r_insert_node - node value insertion in an AVL
+ * (Adelson-Velskii and Landis) tree.
+
  * @tree: type **pointer of root node of the AVL tree struct.
  * @parent: parent node of struct AVL.
  * @new: type**pointer left or right insertion.

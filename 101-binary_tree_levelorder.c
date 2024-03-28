@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_height - Function that measures the height of a binary tree
+ * binary_tree_height - measures the height of a binary tree
  * @tree: tree to go through
- * Return: the height
+ * Return: height
  */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
@@ -25,7 +25,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 }
 /**
  * binary_tree_depth - depth of specified node from root
- * @tree: node to check the depth
+ * @tree: node that checks the depth
  * Return: 0 is it is the root or number of depth
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
@@ -70,7 +70,7 @@ void linked_node(link_t **head, const binary_tree_t *tree, size_t level)
  * recursion - goes through the complete tree and each stores each node
  * in linked_node function
  * @head: pointer to head of linked list
- * @tree: node to check
+ * @tree: node that checks
  * Return: Nothing by default it affects the pointer
  */
 void recursion(link_t **head, const binary_tree_t *tree)
@@ -86,7 +86,7 @@ void recursion(link_t **head, const binary_tree_t *tree)
 	}
 }
 /**
- * binary_tree_levelorder - print the nodes element in a lever-order
+ * binary_tree_levelorder - prints the nodes element in a lever-order
  * @tree: root node
  * @func: function to use
  * Return: Nothing
